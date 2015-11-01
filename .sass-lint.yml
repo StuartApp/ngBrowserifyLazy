@@ -1,0 +1,6 @@
+border-zero: 0
+Indentation:
+    enabled: true
+    allow_non_nested_indentation: false
+    character: space # or 'tab'
+    width: 4
