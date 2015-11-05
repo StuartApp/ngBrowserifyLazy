@@ -41,6 +41,7 @@
     "grunt-sass": "^1.1.0",
     "grunt-sass-lint": "0.1.0-beta.4",
     "grunt-svgmin": "^0.4.0",
+    "grunt-uncss": "^0.4.3",
     "grunt-usemin": "^2.1.1",
     "grunt-wiredep": "^1.7.0",
     "jshint-stylish": "^0.2.0",
@@ -58,7 +59,7 @@
     "node": ">=0.10.0"
   },
   "scripts": {
-    "test": "grunt test"
+    "install": "node node_modules/protractor/bin/webdriver-manager update"
   },
   "browserify": {
     "debug": true,
@@ -70,8 +71,5 @@
   },
   "browserify-shim": {
     "angular": "global:angular"
-  },
-  "scripts": {
-    "install": "node node_modules/protractor/bin/webdriver-manager update"
   }
 }

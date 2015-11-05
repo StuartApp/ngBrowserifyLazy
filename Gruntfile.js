@@ -9,7 +9,6 @@ module.exports = function (grunt) {
 			useminPrepare: 'grunt-usemin'
 		},
 		data: require('./build.config.js')
-		//data: require('./build.config.js')
 	});
 	grunt.config.set('pkg', pkg);
 
@@ -43,12 +42,13 @@ module.exports = function (grunt) {
 		'sasslint',
 		'sass:dev_main',
 		'sass:dev_module1',
-
 		// vendors
+
 		'copy:vendors',
 		'concat:vendors',
-
 		'index',
+
+		//'uncss', //Pending test
 		// PROD version
 		//'uglify',
 		//'useminPrepare',
@@ -81,7 +81,6 @@ module.exports = function (grunt) {
 		'concat:vendors',
 
 		'index',
-		// PROD version
 		'uglify',
 		'useminPrepare',
 		'filerev',
