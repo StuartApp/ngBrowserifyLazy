@@ -36,6 +36,8 @@
     "grunt-ng-annotate": "^0.3.0",
     "grunt-ng-html2js": "^0.2.1",
     "grunt-open": "^0.2.3",
+    "grunt-protractor-runner": "^2.1.0",
+    "grunt-protractor-webdriver": "^0.2.5",
     "grunt-sass": "^1.1.0",
     "grunt-sass-lint": "0.1.0-beta.4",
     "grunt-svgmin": "^0.4.0",
@@ -44,10 +46,12 @@
     "jshint-stylish": "^0.2.0",
     "karma": "^0.12.24",
     "karma-jasmine": "^0.1.5",
-    "karma-phantomjs-launcher": "^0.1.4",
+    "karma-phantomjs-launcher": "^0.2.1",
     "load-grunt-config": "^0.13.2",
     "load-grunt-tasks": "^0.4.0",
     "oclazyload": "^0.3.8",
+    "phantomjs": "^1.9.18",
+    "protractor": "^2.5.1",
     "time-grunt": "^0.3.1"
   },
   "engines": {
@@ -66,5 +70,8 @@
   },
   "browserify-shim": {
     "angular": "global:angular"
+  },
+  "scripts": {
+    "install": "node node_modules/protractor/bin/webdriver-manager update"
   }
 }

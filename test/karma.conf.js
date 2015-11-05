@@ -18,16 +18,14 @@ module.exports = function(config) {
 
     // list of files / patterns to load in the browser
     files: [
-      'bower_components/angular/angular.js',
-      'bower_components/angular-mocks/angular-mocks.js',
-      'bower_components/angular-animate/angular-animate.js',
-      'bower_components/angular-cookies/angular-cookies.js',
-      'bower_components/angular-resource/angular-resource.js',
-      'bower_components/angular-route/angular-route.js',
-      'bower_components/angular-sanitize/angular-sanitize.js',
-      'bower_components/angular-touch/angular-touch.js',
-      'app/scripts/**/*.js',
-      'test/mock/**/*.js',
+      'vendor/angular/angular.min.js',
+      'vendor/angular-mocks/angular-mocks.js',
+      'vendor/angular-bootstrap/ui-bootstrap-tpls.min.js',
+      'vendor/angular-ui-router/release/angular-ui-router.min.js',
+      'vendor/ui-router-extras/release/ct-ui-router-extras.min.js',
+      'vendor/oclazyload/dist/ocLazyLoad.min.js',
+      'vendor/ngmap/build/scripts/ng-map.min.js',
+      'development/app/**/*.js',
       'test/spec/**/*.js'
     ],
 

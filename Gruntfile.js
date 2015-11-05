@@ -24,6 +24,13 @@ module.exports = function (grunt) {
 		'copy:build',
 		'browserify:dev'
 	]);
+
+	grunt.registerTask('test', [
+		'karma:unit',
+		'protractor_webdriver:all',
+		'protractor:chrome'
+	]);
+
 	grunt.registerTask('watch', [
 		//'bump', // Update version. Define cases
 		'jshint:all',
@@ -47,6 +54,7 @@ module.exports = function (grunt) {
 		//'useminPrepare',
 		//'filerev',
 		//'usemin',
+		'karma:unit',
 		'browserSync',
 		//'exorcise:dev',
 		'delta'
