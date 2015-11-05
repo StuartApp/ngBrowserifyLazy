@@ -30,6 +30,7 @@ module.exports = function (grunt) {
 		'protractor:chrome'
 	]);
 
+	// Local Development task
 	grunt.registerTask('watch', [
 		//'bump', // Update version. Define cases
 		'jshint:all',
@@ -60,6 +61,7 @@ module.exports = function (grunt) {
 		'delta'
 	]);
 
+	// Production task
 	grunt.registerTask('prod', [
 		'bump', // Update version. Define cases
 		//'jshint:all',
