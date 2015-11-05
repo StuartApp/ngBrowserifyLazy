@@ -1,5 +1,5 @@
 {
-  "name": "angularbrowserfymodule",
+  "name": "ngBrowserifyLazy",
   "version": "0.0.3",
   "dependencies": {},
   "devDependencies": {
