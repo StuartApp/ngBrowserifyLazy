@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="45px" height="28px" viewBox="0 0 45 28" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:sketch="http://www.bohemiancoding.com/sketch/ns">
+    <!-- Generator: Sketch 3.4.1 (15681) - http://www.bohemiancoding.com/sketch -->
+    <title>Untitled</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <radialGradient cx="0%" cy="0%" fx="0%" fy="0%" r="125.529864%" id="radialGradient-1">
+            <stop stop-color="#93D3F6" offset="0%"></stop>
+            <stop stop-color="#2E77BE" offset="100%"></stop>
+        </radialGradient>
+        <linearGradient x1="5.96907257%" y1="8.40219351%" x2="94.4658512%" y2="92.0184796%" id="linearGradient-2">
+            <stop stop-color="#8CCDF2" offset="0%"></stop>
+            <stop stop-color="#2E77BE" offset="100%"></stop>
+        </linearGradient>
+        <rect id="path-3" x="0.428571429" y="0.333333333" width="31" height="8"></rect>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" sketch:type="MSPage">
+        <g id="UI/Payment/Amex/Small" sketch:type="MSLayerGroup" transform="translate(1.000000, 1.000000)">
+            <g id="Group-Copy-4" stroke="url(#linearGradient-2)" fill="url(#radialGradient-1)" sketch:type="MSShapeGroup">
+                <rect id="Mask-Copy-2" x="0" y="0" width="42.0952381" height="26" rx="1"></rect>
+            </g>
+            <g id="Imported-Layers" transform="translate(3.571429, 8.666667)">
+                <mask id="mask-4" sketch:name="Mask" fill="white">
+                    <use xlink:href="#path-3"></use>
+                </mask>
+                <use id="Mask" sketch:type="MSShapeGroup" xlink:href="#path-3"></use>
+                <g mask="url(#mask-4)" stroke="#FFFFFF" sketch:type="MSShapeGroup">
+                    <g transform="translate(3.857143, 1.238095)">
+                        <path d="M5.35071908,4.77434257 L5.85460035,6.0952381 L8.60495228,6.0952381 L8.60495228,1.39374556 L10.5784873,6.0952381 L11.7332152,6.0952381 L13.7067501,1.39374556 L13.7067501,6.0952381 L15.0714286,6.0952381 L15.0714286,0.0952380952 L12.866948,0.0952380952 L11.2083388,4.16986496 L9.4447544,0.0952380952 L7.28226395,0.0952380952 L7.28226395,5.7594172 L4.97280813,0.0952380952 L2.97827811,0.0952380952 L0.571428571,6.0952381 L2.01250567,6.0952381 L2.51638694,4.77434257 L5.35071908,4.77434257 Z M4.07704655,1.0952381 L4.57142857,3.0952381 L3.57142857,3.0952381 L4.07704655,1.0952381 L4.07704655,1.0952381 Z" id="Fill-1"></path>
+                        <path d="M23.9072888,0.0955490244 L22.259964,2.06559618 L20.7118757,0.0955490244 L15.5714286,0.0955490244 L15.5714286,6.0952381 L20.6324865,6.0952381 L22.259964,4.12519094 L23.8278996,6.0952381 L25.4611659,6.0952381 L23.0737027,3.09539356 L25.0385841,0.74476911 L25.5714286,0.0952380952 L23.9072888,0.0955490244 L23.9072888,0.0955490244 Z M19.9775261,4.86395862 L16.8218076,4.86395862 L16.8218076,3.65506605 L19.6401222,3.65506605 L19.6401222,2.44617347 L16.8218076,2.44617347 L16.8218076,1.3492154 L20.0172207,1.3492154 L21.426378,3.09539356 L19.9775261,4.86395862 L19.9775261,4.86395862 Z" id="Fill-2"></path>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

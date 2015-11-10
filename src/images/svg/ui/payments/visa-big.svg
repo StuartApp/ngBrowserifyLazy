@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="70px" height="44px" viewBox="0 0 70 44" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:sketch="http://www.bohemiancoding.com/sketch/ns">
+    <!-- Generator: Sketch 3.4.1 (15681) - http://www.bohemiancoding.com/sketch -->
+    <title>Untitled</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <linearGradient x1="77.2317325%" y1="13.4579613%" x2="16.1793428%" y2="84.9469866%" id="linearGradient-1">
+            <stop stop-color="#1452A8" offset="0%"></stop>
+            <stop stop-color="#2B80D5" offset="100%"></stop>
+        </linearGradient>
+        <linearGradient x1="97.3912856%" y1="5.20833333%" x2="3.04601333%" y2="95.1520647%" id="linearGradient-2">
+            <stop stop-color="#1452A8" offset="0%"></stop>
+            <stop stop-color="#2B80D5" offset="100%"></stop>
+        </linearGradient>
+        <rect id="path-3" x="0" y="0" width="68" height="42" rx="3"></rect>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" sketch:type="MSPage">
+        <g id="UI/Payment/Visa/Big" sketch:type="MSLayerGroup" transform="translate(1.000000, 1.000000)">
+            <mask id="mask-4" sketch:name="Mask Copy 2" fill="white">
+                <use xlink:href="#path-3"></use>
+            </mask>
+            <use id="Mask-Copy-2" stroke="url(#linearGradient-2)" fill="url(#linearGradient-1)" sketch:type="MSShapeGroup" xlink:href="#path-3"></use>
+            <path d="M39.1454882,14 C36.1223539,14 33.4207688,15.59019 33.4207688,18.5282125 C33.4207688,21.8975575 38.212156,22.1303075 38.212156,23.82296 C38.212156,24.5356825 37.4073433,25.1736625 36.0327368,25.1736625 C34.0819043,25.1736625 32.6238539,24.2821775 32.6238539,24.2821775 L32,27.246975 C32,27.246975 33.6796359,28 35.9096318,28 C39.2148436,28 41.815672,26.3317075 41.815672,23.3434775 C41.815672,19.7831375 37.0043335,19.5573175 37.0043335,17.986255 C37.0043335,17.427935 37.6650206,16.816205 39.0356611,16.816205 C40.5822077,16.816205 41.8439522,17.464545 41.8439522,17.464545 L42.4545455,14.601055 C42.4545455,14.601055 41.0816116,14 39.1454537,14 L39.1454882,14 L39.1454882,14 Z M10.075737,14 L10,14.4462233 C10,14.4462233 11.3155863,14.6900842 12.5004791,15.1765596 C14.0261347,15.7343793 14.134817,16.0591057 14.3917804,17.0677195 L17.1916934,28 L20.9449895,28 L26.7272727,14 L22.9825563,14 L19.2671109,23.518653 L17.7509804,15.450194 C17.611939,14.5267816 16.9076531,14 16.045561,14 L10.075737,14 L10.075737,14 Z M28.5629595,14 L25.7272727,28 L29.1742483,28 L32,14 L28.5629595,14 L28.5629595,14 Z M49.213944,14 C48.3684456,14 47.9204568,14.4669274 47.5917122,15.2828626 L42.4545455,28 L46.1316545,28 L46.8431084,25.880462 L51.322891,25.880462 L51.7555013,28 L55,28 L52.1694929,14 L49.213944,14 L49.213944,14 Z M50.8181818,23 L48.2045455,23 L49.8425754,18 L50.8181818,23 Z" id="Imported-Layers" fill="#FFFFFF" sketch:type="MSShapeGroup" mask="url(#mask-4)"></path>
+        </g>
+    </g>
+</svg>
