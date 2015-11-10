@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="95px" height="95px" viewBox="0 0 95 95" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:sketch="http://www.bohemiancoding.com/sketch/ns">
+    <!-- Generator: Sketch 3.4.1 (15681) - http://www.bohemiancoding.com/sketch -->
+    <title>Untitled</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" sketch:type="MSPage">
+        <g id="UI/Badges/Declined" sketch:type="MSLayerGroup">
+            <ellipse id="Oval-521-Copy" fill="#E02D43" sketch:type="MSShapeGroup" cx="47.2524028" cy="47.2524028" rx="47.2524028" ry="47.2524028"></ellipse>
+            <g id="Path-560-+-Path-560-Copy" transform="translate(47.015306, 47.634671) rotate(-315.000000) translate(-47.015306, -47.634671) translate(27.307859, 27.927225)" fill="#FFFFFF" sketch:type="MSShapeGroup">
+                <path d="M17.7185949,21.3882381 L2.11874872,21.3882381 C1.10540472,21.3882381 0.2839271,20.5667605 0.2839271,19.5534165 C0.2839271,18.5400725 1.10540472,17.7185949 2.11874872,17.7185949 L17.7185949,17.7185949 L17.7185949,2.11874872 C17.7185949,1.10540472 18.5400725,0.2839271 19.5534165,0.2839271 C20.5667605,0.2839271 21.3882381,1.10540472 21.3882381,2.11874872 L21.3882381,17.7185949 L36.9880843,17.7185949 C38.0014283,17.7185949 38.8229059,18.5400725 38.8229059,19.5534165 C38.8229059,20.5667605 38.0014283,21.3882381 36.9880843,21.3882381 L21.3882381,21.3882381 L21.3882381,36.9880843 C21.3882381,38.0014283 20.5667605,38.8229059 19.5534165,38.8229059 C18.5400725,38.8229059 17.7185949,38.0014283 17.7185949,36.9880843 L17.7185949,21.3882381 Z" id="Path-560"></path>
+            </g>
+        </g>
+    </g>
+</svg>

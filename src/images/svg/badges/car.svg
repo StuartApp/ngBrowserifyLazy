@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="95px" height="96px" viewBox="0 0 95 96" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:sketch="http://www.bohemiancoding.com/sketch/ns">
+    <!-- Generator: Sketch 3.4.1 (15681) - http://www.bohemiancoding.com/sketch -->
+    <title>Untitled</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" sketch:type="MSPage">
+        <g id="UI/Badges/Car" sketch:type="MSLayerGroup">
+            <ellipse id="Oval-521-Copy-8" fill="#11A3EB" sketch:type="MSShapeGroup" cx="47.5" cy="47.5" rx="47.5" ry="47.5"></ellipse>
+            <path d="M31.3514706,63.1921084 L30.3542113,66 L24.122449,66 L24.122449,46.6383594 L30.2779764,32.3827042 C30.2779764,32.3827042 32.636827,26 38.433341,26 L55.0995379,26 C61.185922,26 63.7105392,32.2519184 63.7105392,32.2519184 L69.9183673,46.6383594 L69.9183673,66 L63.4472628,66 L62.7061883,62.8068685 M29.3265306,58.7751196 L33.3715387,59.6842105 L59.5791705,59.6842105 L64.7142857,58.6315789 M26.2040816,39.6842105 L21,39.6842105 L26.2040816,39.6842105 Z M66.7959184,39.6842105 L72,39.6842105 L66.7959184,39.6842105 Z M28.2857143,47.0526316 L33.822293,47.9662871 L34.5306122,51.2631579 M65.755102,47.0526316 L60.3269498,47.9057885 L59.5102041,51.2631579 M39.7134347,52.3157895 L54.1736529,52.3157895 L55.3469388,47.0526316 L38.6938776,47.0526316 C38.6938776,47.3567813 39.7134347,52.3157895 39.7134347,52.3157895 Z" id="Imported-Layers-Copy-42" stroke="#FFFFFF" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" sketch:type="MSShapeGroup"></path>
+        </g>
+    </g>
+</svg>
