@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="63px" height="63px" viewBox="0 0 63 63" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:sketch="http://www.bohemiancoding.com/sketch/ns">
+    <!-- Generator: Sketch 3.4.1 (15681) - http://www.bohemiancoding.com/sketch -->
+    <title>Untitled</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" sketch:type="MSPage">
+        <g id="UI/Tracking/Checkmark/Empty/Yellow" sketch:type="MSLayerGroup" transform="translate(1.000000, 1.000000)" stroke="#FFB11F" stroke-width="2">
+            <path d="M43.0411503,23.235451 L30.7794985,30.2782745 L23.0864837,25.9743268 M38.7372026,20.4965752 L30.5208759,16.1926275 L18,23.5036388 L18,37.8348415 L30.5208759,45.1464575 L43.0411503,37.8348415 L43.0411503,23.5036388 M30.5205752,31.0608105 L30.5205752,39.6687059" id="Imported-Layers-Copy" stroke-linecap="round" stroke-linejoin="round" sketch:type="MSShapeGroup"></path>
+            <ellipse id="Oval-37" sketch:type="MSShapeGroup" cx="30.5333333" cy="30.5333333" rx="29.8666667" ry="29.8666667"></ellipse>
+        </g>
+    </g>
+</svg>
