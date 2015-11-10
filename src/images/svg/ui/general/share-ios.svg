@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="41px" height="51px" viewBox="0 0 41 51" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:sketch="http://www.bohemiancoding.com/sketch/ns">
+    <!-- Generator: Sketch 3.4.1 (15681) - http://www.bohemiancoding.com/sketch -->
+    <title>Untitled</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" sketch:type="MSPage">
+        <g id="UI/General/Share/iOS" sketch:type="MSLayerGroup" transform="translate(1.000000, 1.000000)" stroke="#11A3EB" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+            <path d="M17.0866667,30.36 L17.0866667,0.07 M7.76666667,8.61333333 L16.6988118,0.07 L25.63,8.61333333 M30.3055848,16.38 C32.4333784,16.38 34.1733333,18.1235534 34.1733333,20.2545632 L34.1733333,41.2421035 C34.1733333,43.3731132 32.4333784,45.1166667 30.3055848,45.1166667 L3.86968292,45.1166667 C1.74092208,45.1166667 0,43.3731132 0,41.2421035 L0,20.2545632 C0,18.1235534 1.74092208,16.38 3.86968292,16.38" id="Share" sketch:type="MSShapeGroup"></path>
+        </g>
+    </g>
+</svg>
