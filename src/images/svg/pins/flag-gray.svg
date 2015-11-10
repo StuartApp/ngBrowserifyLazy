@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="85px" height="95px" viewBox="0 0 85 95" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:sketch="http://www.bohemiancoding.com/sketch/ns">
+    <!-- Generator: Sketch 3.4.1 (15681) - http://www.bohemiancoding.com/sketch -->
+    <title>Untitled</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <linearGradient x1="50%" y1="116.071639%" x2="50%" y2="0%" id="linearGradient-1">
+            <stop stop-color="#A9B7C4" offset="0%"></stop>
+            <stop stop-color="#BDCAD7" offset="100%"></stop>
+        </linearGradient>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" sketch:type="MSPage">
+        <g id="UI/Pin/Finish/Grey" sketch:type="MSLayerGroup">
+            <path d="M69.19873,75.437237 C78.5285579,67.6928248 84.4753086,55.9723038 84.4753086,42.8555556 C84.4753086,19.5362222 65.682963,0.633333333 42.5,0.633333333 C19.3191358,0.633333333 0.524691358,19.5362222 0.524691358,42.8555556 C0.524691358,56.0170918 6.51279122,67.7728494 15.8978338,75.5164292 L15.8456792,75.5533881 L16.6577955,76.1288499 C17.766021,77.0009849 18.9189192,77.8183225 20.1124597,78.5768086 L42.4780985,94.4249944 L69.3641977,75.5533881 L69.19873,75.437237 Z" id="Fill-1-Copy" fill="url(#linearGradient-1)" sketch:type="MSShapeGroup"></path>
+            <path d="M25.5546861,58.3461374 L34.1962462,26.19308 C34.1962462,26.19308 38.2760004,23.9847188 42.5336186,27.0451485 C47.5855609,30.6789703 52.6890434,36.5933285 60.9000919,32.5835941 L56.3271695,49.3994176 C56.3271695,49.3994176 50.8709909,52.8578135 44.0495045,47.8456456 C41.2309673,45.7756202 39.6696049,43.234451 36.3851855,43.4850594" id="Imported-Layers-Copy-4" stroke="#FFFFFF" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" sketch:type="MSShapeGroup"></path>
+        </g>
+    </g>
+</svg>

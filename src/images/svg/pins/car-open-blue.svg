@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="86px" height="85px" viewBox="0 0 86 85" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:sketch="http://www.bohemiancoding.com/sketch/ns">
+    <!-- Generator: Sketch 3.4.1 (15681) - http://www.bohemiancoding.com/sketch -->
+    <title>Untitled</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <linearGradient x1="50%" y1="100%" x2="50%" y2="-43.4604779%" id="linearGradient-1">
+            <stop stop-color="#11A3EB" offset="0%"></stop>
+            <stop stop-color="#24BDFD" offset="100%"></stop>
+        </linearGradient>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" sketch:type="MSPage">
+        <g id="UI/Pin/Truck" sketch:type="MSLayerGroup">
+            <ellipse id="Oval-128" fill="url(#linearGradient-1)" sketch:type="MSShapeGroup" cx="42.5" cy="42.5" rx="42.5" ry="42.5"></ellipse>
+            <path d="M30.5658498,63.1985798 L29.8048151,65.333 L25.0504628,65.333 L25.0504628,50.6154361 L26.9171116,40.3767019 L28.0678241,24.8515957 C28.0678241,24.8515957 28.1876166,20 32.6100733,20 L52.0411192,20 C56.684135,20 56.9307666,24.7522384 56.9307666,24.7522384 L58.148422,40.5697792 L59.9882936,50.6154361 L59.9882936,65.333 L55.0521385,65.333 L54.4862952,62.9061452 L30.5658498,63.1985798 Z M28.7605065,58.1056993 L31.9173909,58.7737185 L52.3709008,58.7737185 L56.3783118,58 M26.7289669,38.7795436 L22.9343637,38.7795436 L22.9343637,35.5486698 M58.2710331,38.7795436 L62.0656363,38.7795436 L62.0656363,35.5486698 M28.8817083,49.4268966 L33.1738026,50.1160557 L33.316849,52.0552846 M56.1316802,49.4268966 L51.8388813,50.1160557 L51.6239595,52.1856471 M37.0593072,50.0998485 C37.0593072,50.267558 37.4024774,54.3693936 37.4024774,54.3693936 L47.6010459,54.3693936 L47.9794492,50.0998485 L37.0593072,50.0998485 L37.0593072,50.0998485 Z M57.2295431,30.0205989 C57.2295431,30.0205989 52.6584028,28.2786752 42.5690568,28.2786752 C32.7904667,28.2786752 28.2735853,30.0205989 28.2735853,30.0205989 M33,43 L51.5833379,43 L33,43 Z" id="Imported-Layers" stroke="#FDFEFF" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" sketch:type="MSShapeGroup"></path>
+        </g>
+    </g>
+</svg>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="86px" height="86px" viewBox="0 0 86 86" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:sketch="http://www.bohemiancoding.com/sketch/ns">
+    <!-- Generator: Sketch 3.4.1 (15681) - http://www.bohemiancoding.com/sketch -->
+    <title>Untitled</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" sketch:type="MSPage">
+        <g id="UI/Pin/Canceled" sketch:type="MSLayerGroup">
+            <ellipse id="Oval-521-Copy-4" fill="#E02D43" sketch:type="MSShapeGroup" cx="43" cy="43" rx="42.5" ry="42.5"></ellipse>
+            <g id="Path-560-+-Path-560-Copy" transform="translate(42.500000, 43.792893) rotate(-315.000000) translate(-42.500000, -43.792893) translate(24.500000, 25.792893)" stroke="#FFFFFF" stroke-width="2" fill="#FFFFFF" stroke-linecap="round" sketch:type="MSShapeGroup">
+                <path d="M16.4194538,18.4194538 L2.25211904,18.4194538 C1.33182896,18.4194538 0.585786438,17.9717386 0.585786438,17.4194538 C0.585786438,16.8671691 1.33182896,16.4194538 2.25211904,16.4194538 L16.4194538,16.4194538 L16.4194538,2.25211904 C16.4194538,1.33182896 16.8671691,0.585786438 17.4194538,0.585786438 C17.9717386,0.585786438 18.4194538,1.33182896 18.4194538,2.25211904 L18.4194538,16.4194538 L33.9194538,16.4194538 C34.8397439,16.4194538 35.5857864,16.8671691 35.5857864,17.4194538 C35.5857864,17.9717386 34.8397439,18.4194538 33.9194538,18.4194538 L18.4194538,18.4194538 L18.4194538,33.9194538 C18.4194538,34.8397439 17.9717386,35.5857864 17.4194538,35.5857864 C16.8671691,35.5857864 16.4194538,34.8397439 16.4194538,33.9194538 L16.4194538,18.4194538 Z" id="Path-560"></path>
+            </g>
+        </g>
+    </g>
+</svg>
