@@ -15,13 +15,21 @@ module.exports = {
                 'app/module1/*.js',
                 'app/module11/*.js',
                 'app/module2/*.js',
-                '!app/**/*spec.js',
+                '!app/**/*spec.js'
                 //'images/*',
                 //'fonts/*',
 
                 //'<%= vendor_files.js %>'
             ]
         }]
+    },
+    fonts: {
+      files: [{
+        expand: true,
+        cwd: '<%= app_dir %>/assets',
+        src: 'fonts/*',
+        dest: '<%= dev_dir %>/assets'
+      }]
     },
     vendors: {
         files: [{

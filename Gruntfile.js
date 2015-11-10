@@ -46,6 +46,7 @@ module.exports = function (grunt) {
 		// vendors
 
 		'copy:vendors',
+    'copy:fonts',
 		'concat:vendors',
 		'index',
 
