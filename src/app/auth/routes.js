@@ -1,15 +1,14 @@
 'use strict';
 
-module.exports = function ($stateProvider) {
+module.exports = function($stateProvider) {
 
   $stateProvider
     .state('auth', {
       url: '/auth',
       templateUrl: 'app/auth/auth.tpl.html',
-      controller: function () {
+      controller: function() {
         console.log('AUTH');
       }
     });
-
 
 };
