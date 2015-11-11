@@ -18,7 +18,7 @@ module.exports = function (grunt) {
 	grunt.renameTask('watch', 'delta');
 
 	grunt.registerTask('process-js', [
-		'jsbeautifier',
+		//'jsbeautifier',
 		'html2js',
 		'copy:build',
 		'browserify:dev'
