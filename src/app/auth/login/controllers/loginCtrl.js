@@ -1,3 +1,5 @@
-/**
- * Created by frankparejo on 11/11/15.
- */
+'use strict';
+
+module.exports = [function() {
+  console.log('Login view');
+}];

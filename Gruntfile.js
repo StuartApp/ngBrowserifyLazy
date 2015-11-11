@@ -56,7 +56,7 @@ module.exports = function (grunt) {
 		//'useminPrepare',
 		//'filerev',
 		//'usemin',
-		'karma:unit',
+		//'karma:unit', // Unit test
 		'browserSync',
 		//'exorcise:dev',
 		'delta'

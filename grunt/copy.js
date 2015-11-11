@@ -7,19 +7,7 @@ module.exports = {
             cwd: '<%= app_dir %>',
             dest: '.tmp/modules',
             src: [
-                //'*.{ico,png,txt}',
-                //'app/module1/*.tpl.html',
-                //'app/module11/*.tpl.html',
-                //'app/module2/*.tpl.html',
-
-                'app/module1/*.js',
-                'app/module11/*.js',
-                'app/module2/*.js',
-                '!app/**/*spec.js'
-                //'images/*',
-                //'fonts/*',
-
-                //'<%= vendor_files.js %>'
+              'app/auth/**/*.js'
             ]
         }]
     },

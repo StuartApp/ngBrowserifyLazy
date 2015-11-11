@@ -12,18 +12,6 @@ module.exports = {
 		],
 		dest: '<%= dev_dir %>/assets/main.min.css'
 	},
-	build_module1: {
-		src: [
-			'.tmp/modules/app/module1/**/*.js'
-		],
-		dest: 'build/app/module1.js'
-	},
-	build_module2: {
-		src: [
-			'.tmp/modules/app/module2/**/*.js'
-		],
-		dest: 'build/app/module2.js'
-	}
 	/**
 	 * The `compile_js` target is the concatenation of our application source
 	 * code and all specified vendor source code into a single file.
