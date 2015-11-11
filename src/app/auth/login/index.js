@@ -1,3 +1,5 @@
+'use strict';
+
 /**
  * Define login module and dependecies
  */

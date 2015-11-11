@@ -1,3 +1,5 @@
+'use strict';
+
 /**
- * Created by frankparejo on 11/11/15.
+ * Contains login api call configurations
  */
