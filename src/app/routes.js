@@ -17,11 +17,10 @@ module.exports = function($stateProvider, $locationProvider, $urlRouterProvider,
     $stateProvider
         .state('index', {
             url: '/',
-            controller: function() {
-                console.log('APP');
-            },
+            controller: 'AppCtrl',
             templateUrl: 'app/app.tpl.html'
         });
+
     $futureStateProvider.stateFactory('ocLazyLoad', ocLazyLoadStateFactory);
 
     $futureStateProvider.futureState({

@@ -2,6 +2,7 @@
 
 /* @ngInject */
 module.exports = function AppCtrl() {
-    //var ctrl = this;
+
+    console.log('Init app');
 
 };

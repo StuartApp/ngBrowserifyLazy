@@ -1,80 +1,58 @@
 <!doctype html>
+
 <html class="no-js">
-<head>
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
-    <meta name="description" content="Angular seed Browserify Lazy">
-    <meta name="author" content="Dimas López Zurita">
 
-    <title>Angular seed Browserify Lazy</title>
+  <head>
+      <meta charset="utf-8">
+      <meta http-equiv="X-UA-Compatible" content="IE=edge">
+      <meta name="viewport" content="width=device-width, initial-scale=1">
+      <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+      <meta name="description" content="Angular seed Browserify Lazy">
+      <meta name="author" content="Dimas López Zurita">
 
-    <!-- build:css assets/main.min.css -->
-    <link rel="stylesheet" href="assets/main.min.css">
-    <!-- endbuild -->
-    <!--<base href="/">-->
+      <title>Angular seed Browserify Lazy</title>
 
-    <!-- Just for debugging purposes. Don't actually copy these 2 lines! -->
-    <!--[if lt IE 9]>
-    <script src="../../assets/js/ie8-responsive-file-warning.js"></script><![endif]-->
+      <!-- build:css assets/main.min.css -->
+      <link rel="stylesheet" href="assets/main.min.css">
+      <!-- endbuild -->
+      <!--<base href="/">-->
 
-    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
-    <!--[if lt IE 9]>
-    <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
-    <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
-    <![endif]-->
-</head>
+      <!-- Just for debugging purposes. Don't actually copy these 2 lines! -->
+      <!--[if lt IE 9]>
+      <script src="../../assets/js/ie8-responsive-file-warning.js"></script><![endif]-->
 
-<body ng-app="angularBrowserfyModuleApp">
+      <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+      <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+      <![endif]-->
+  </head>
 
-<nav class="navbar navbar-default navbar-fixed-top">
+  <body ng-app="StuartBackOffice">
+
+    <!-- Begin page content -->
     <div class="container">
-        <div class="navbar-header">
-            <!--<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">-->
-            <button type="button" ng-init="navCollapsed = true" ng-click="navCollapsed = !navCollapsed" class="navbar-toggle collapsed">
-                <span class="sr-only">Toggle navigation</span>
-                <span class="icon-bar"></span>
-                <span class="icon-bar"></span>
-                <span class="icon-bar"></span>
-            </button>
-            <a class="navbar-brand" href="#/">Angular Lazy Project</a>
+        <div class="page-header">
+            <h1>Dynamic module loading!</h1>
         </div>
-        <div id="navbar" class="navbar-collapse" ng-click="!navCollapsed ? navCollapsed = !navCollapsed : ''" ng-class="{collapse: navCollapsed}">
-            <ul class="nav navbar-nav">
-                <li class="active"><a href="#/">Main</a></li>
-                <li><a href="#/module1">Module1</a></li>
-            </ul>
-        </div><!--/.nav-collapse -->
-    </div>
-</nav>
 
-
-
-
-<!-- Begin page content -->
-<div class="container">
-    <div class="page-header">
-        <h1>Dynamic module loading!</h1>
+        <div ui-view=""></div>
     </div>
 
-    <div ui-view=""></div>
-</div>
+    <footer class="footer">
+        <div class="container">
+            <p class="text-muted">Place sticky footer content here.</p>
+        </div>
+    </footer>
 
-<footer class="footer">
-    <div class="container">
-        <p class="text-muted">Place sticky footer content here.</p>
-    </div>
-</footer>
-
-<!-- build:js vendor/vendor.min.js -->
-<script type="text/javascript" src="vendor/vendor.min.js"></script>
-<!-- endbuild -->
-<!-- build:js app/main.js -->
-<script src="app/main.js"></script>
-<!-- endbuild -->
+    <!-- build:js vendor/vendor.min.js -->
+    <script type="text/javascript" src="vendor/vendor.min.js"></script>
+    <!-- endbuild -->
+    <!-- build:js app/main.js -->
+    <script src="app/main.js"></script>
+    <!-- endbuild -->
 
 
-</body>
+  </body>
 
 </html>
