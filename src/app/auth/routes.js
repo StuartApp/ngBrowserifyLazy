@@ -1,30 +1,26 @@
 'use strict';
 
-module.exports = function ($stateProvider, $urlRouterProvider, $futureStateProvider, lazyLoadProvider) {
+module.exports = function($stateProvider, $urlRouterProvider, $futureStateProvider, LazyLoadProvider) {
 
   $stateProvider
     .state('auth', {
       url: '/auth',
       templateUrl: 'app/auth/auth.tpl.html',
-      controller: function () {
-        console.log('AUTH');
-      }
+      controller: 'AuthCtrl as auth'
     });
 
-  $futureStateProvider.stateFactory('ocLazyLoad', lazyLoadProvider.load);
+  $futureStateProvider.stateFactory('ocLazyLoad', LazyLoadProvider.load);
 
   $futureStateProvider.futureState({
     type: 'ocLazyLoad',
-    urlPrefix: '/login',
+    urlPrefix: '/auth/login',
     stateName: 'auth.login',
     bundle: {
-      name: 'auth.login',
+      name: 'login',
       reconfig: true,
       files: [
         'app/modules/login.js'
       ]
     }
   });
-
 };
-

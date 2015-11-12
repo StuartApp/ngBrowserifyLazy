@@ -1,19 +1,17 @@
 'use strict';
 
-module.exports = function($stateProvider, $urlRouterProvider, $futureStateProvider, lazyLoadProvider) {
+module.exports = function($stateProvider, $urlRouterProvider, $futureStateProvider, LazyLoadProvider) { // localStorageServiceProvider
 
-  console.log(lazyLoadProvider);
+  //localStorageServiceProvider
+  //  .setPrefix('stuart.backoffice');
 
-  $stateProvider
-
-    .state('index', {
+  $stateProvider.state('index', {
     url: '/',
-    controller: 'AppCtrl',
+    controller: 'AppCtrl as app',
     templateUrl: 'app/app.tpl.html'
-
   });
 
-  $futureStateProvider.stateFactory('ocLazyLoad', lazyLoadProvider.load);
+  $futureStateProvider.stateFactory('ocLazyLoad', LazyLoadProvider.load);
 
   $futureStateProvider.futureState({
     type: 'ocLazyLoad',

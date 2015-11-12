@@ -17,6 +17,15 @@ module.exports = {
 			'process-js'
 		]
 	},
+  js_module1: {
+    files: [
+      '<%= app_dir %>/**/*.js'
+    ],
+    //tasks: ['jshint:all', 'karma:unit:run', 'copy:build_appjs']
+    tasks: [
+      'process-js'
+    ]
+  },
 	html: {
 		files: ['<%= app_files.html %>'],
 		tasks: [

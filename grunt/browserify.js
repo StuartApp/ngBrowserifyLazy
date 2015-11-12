@@ -12,7 +12,7 @@ module.exports = {
         files: {
             '<%= dev_dir %>/app/main.js': ['<%= app_dir %>/app/app.js', '.tmp/templates-app.js'],
             '<%= dev_dir %>/app/modules/auth.js': ['<%= app_dir %>/app/auth/index.js', '.tmp/templates-auth.js'],
-            '<%= dev_dir %>/app/modules/login.js': ['<%= app_dir %>/app/auth/login.js', '.tmp/templates-login.js']
+            '<%= dev_dir %>/app/modules/login.js': ['<%= app_dir %>/app/auth/login/index.js', '.tmp/templates-login.js']
         },
         options: {
             external: ['angular'],
