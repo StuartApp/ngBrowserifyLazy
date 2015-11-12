@@ -4,7 +4,7 @@ module.exports = function($stateProvider, $urlRouterProvider, $futureStateProvid
 
   //localStorageServiceProvider
   //  .setPrefix('stuart.backoffice');
-  var isLoogged = false;
+  var isLoogged = true;
 
   $urlRouterProvider.when('/', !isLoogged ? '/auth/login': '/backoffice');
 
