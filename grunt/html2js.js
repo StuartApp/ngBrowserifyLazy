@@ -11,23 +11,8 @@ module.exports = {
     options: {
       base: 'src'
     },
-    src: ['<%= app_dir %>/app/auth/*.html'],
+    src: ['<%= app_dir %>/app/auth//**/*.html'],
     dest: '.tmp/templates-auth.js'
-  },
-  login: {
-    options: {
-      base: 'src'
-    },
-    src: ['<%= app_dir %>/app/auth/login/*.html'],
-    dest: '.tmp/templates-login.js'
-  },
-
-  login: {
-    options: {
-      base: 'src'
-    },
-    src: ['<%= app_dir %>/app/auth/login/*.html'],
-    dest: '.tmp/templates-login.js'
   }
 
 
