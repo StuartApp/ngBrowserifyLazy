@@ -4,6 +4,9 @@ module.exports = function($stateProvider, $urlRouterProvider, $futureStateProvid
 
   //localStorageServiceProvider
   //  .setPrefix('stuart.backoffice');
+  var isLoogged = false;
+
+  $urlRouterProvider.when('/', !isLoogged ? '/auth/login': '/kpis');
 
   $stateProvider.state('index', {
     url: '/',
@@ -25,5 +28,4 @@ module.exports = function($stateProvider, $urlRouterProvider, $futureStateProvid
       ]
     }
   });
-
 };
