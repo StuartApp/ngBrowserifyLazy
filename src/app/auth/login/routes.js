@@ -1,14 +1,9 @@
 'use strict';
 
 module.exports = function($stateProvider) {
-
-  $stateProvider
-
-    .state('login', {
+  $stateProvider.state('auth.login', {
     url: '/login',
-    abstract: true,
     controller: 'LoginCtrl',
-    templateUrl: 'app/auth/login/tpl/login.tpl.html'
+    templateUrl: 'app/auth/login/index.tpl.html'
   });
-
 };
