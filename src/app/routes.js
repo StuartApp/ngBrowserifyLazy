@@ -6,9 +6,9 @@ module.exports = function($stateProvider, $urlRouterProvider, $futureStateProvid
   //  .setPrefix('stuart.backoffice');
   var isLoogged = false;
 
-  $urlRouterProvider.when('/', !isLoogged ? '/auth/login': '/kpis');
+  $urlRouterProvider.when('/', !isLoogged ? '/auth/login': '/backoffice');
 
-  $stateProvider.state('index', {
+  $stateProvider.state('app', {
     url: '/',
     controller: 'AppCtrl as app',
     templateUrl: 'app/app.tpl.html'
@@ -28,4 +28,18 @@ module.exports = function($stateProvider, $urlRouterProvider, $futureStateProvid
       ]
     }
   });
+
+  $futureStateProvider.futureState({
+    type: 'ocLazyLoad',
+    urlPrefix: '/backoffice',
+    stateName: 'backoffice',
+    bundle: {
+      name: 'backoffice',
+      reconfig: true,
+      files: [
+        'app/modules/backoffice/main.js'
+      ]
+    }
+  });
+
 };

@@ -1,5 +1,5 @@
 'use strict';
 
-module.exports = function AuthCtrl() {
-  console.log('AuthCtrl');
+module.exports = function BackofficeCtrl() {
+  console.log('Backoffice controller');
 };

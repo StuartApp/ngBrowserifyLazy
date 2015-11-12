@@ -7,7 +7,8 @@ module.exports = {
             cwd: '<%= app_dir %>',
             dest: '.tmp/modules',
             src: [
-              'app/auth/**/*.js'
+              'app/auth/**/*.js',
+              'app/backoffice/main/*.js'
             ]
         }]
     },
