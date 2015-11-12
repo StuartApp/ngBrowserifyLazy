@@ -13,7 +13,8 @@ module.exports = {
             '<%= dev_dir %>/app/main.js': ['<%= app_dir %>/app/app.js', '.tmp/templates-app.js'],
             '<%= dev_dir %>/app/modules/auth.js': ['<%= app_dir %>/app/auth/index.js', '.tmp/templates-auth.js'],
             '<%= dev_dir %>/app/modules/login.js': ['<%= app_dir %>/app/auth/login/index.js', '.tmp/templates-login.js'],
-            '<%= dev_dir %>/app/modules/backoffice/main.js': ['<%= app_dir %>/app/backoffice/main/index.js', '.tmp/templates-backoffice-main.js']
+            '<%= dev_dir %>/app/modules/backoffice/main.js': ['<%= app_dir %>/app/backoffice/main/index.js', '.tmp/templates-backoffice-main.js'],
+            '<%= dev_dir %>/app/modules/backoffice/kpis.js': ['<%= app_dir %>/app/backoffice/kpis/index.js', '.tmp/templates-backoffice-kpis.js']
         },
         options: {
             external: ['angular'],

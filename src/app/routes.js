@@ -32,9 +32,9 @@ module.exports = function($stateProvider, $urlRouterProvider, $futureStateProvid
   $futureStateProvider.futureState({
     type: 'ocLazyLoad',
     urlPrefix: '/backoffice',
-    stateName: 'backoffice',
+    stateName: 'bck',
     bundle: {
-      name: 'backoffice',
+      name: 'bck',
       reconfig: true,
       files: [
         'app/modules/backoffice/main.js'

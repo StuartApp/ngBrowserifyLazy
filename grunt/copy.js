@@ -8,7 +8,7 @@ module.exports = {
             dest: '.tmp/modules',
             src: [
               'app/auth/**/*.js',
-              'app/backoffice/main/*.js'
+              'app/backoffice/**/*.js'
             ]
         }]
     },
