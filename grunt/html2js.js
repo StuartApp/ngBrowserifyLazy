@@ -28,7 +28,7 @@ module.exports = {
       base: 'src'
     },
     src: ['<%= app_dir %>/app/backoffice/kpis/*.html'],
-    dest: '.tmp/templates-backoffice-kpsis.js'
+    dest: '.tmp/templates-backoffice-kpis.js'
   }
 
 };
