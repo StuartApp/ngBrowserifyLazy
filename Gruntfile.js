@@ -2,7 +2,6 @@ module.exports = function (grunt) {
 	'use strict';
 
 	var pkg = grunt.file.readJSON('package.json');
-  var environment = grunt.option('env') || 'dev';
 
 	// Load grunt tasks automatically
 	require('load-grunt-config')(grunt, {
@@ -15,7 +14,7 @@ module.exports = function (grunt) {
 
 
 	grunt.config.set('pkg', pkg);
-  grunt.config.set('environment_folder', environment === 'dev' ? 'development' : 'production');
+  grunt.config.set('environment_folder', 'development');
 
 	// Time how long tasks take. Can help when optimizing build times
 	require('time-grunt')(grunt);
@@ -29,11 +28,18 @@ module.exports = function (grunt) {
 		'browserify:dev'
 	]);
 
+
+
 	grunt.registerTask('test', [
 		'karma:unit',
 		'protractor_webdriver:all',
 		'protractor:chrome'
 	]);
+
+  grunt.registerTask('prodEnv', function() {
+    grunt.config.set('environment_folder', 'production');
+    console.log('Hola');
+  })
 
 	// Local Development task
 	grunt.registerTask('watch', [
@@ -46,8 +52,8 @@ module.exports = function (grunt) {
 
 		// sass check
 		'sasslint',
-		'sass:dev_main',
-		'sass:dev_module1',
+	  'sass',
+
 		// vendors
 
 		'copy:vendors',
@@ -70,6 +76,7 @@ module.exports = function (grunt) {
 
 	// Production task
 	grunt.registerTask('prod', [
+    'prodEnv',
 		'bump', // Update version. Define cases
 		//'jshint:all',
 		'clean:prod',
@@ -98,21 +105,4 @@ module.exports = function (grunt) {
 		'usemin'
 	]);
 
-	/**
-	 * A utility function to get all app JavaScript sources.
-	 */
-	function filterForJS(files) {
-		return files.filter(function (file) {
-			return file.match(/\.js$/);
-		});
-	}
-
-	/**
-	 * A utility function to get all app CSS sources.
-	 */
-	//function filterForCSS(files) {
-	//	return files.filter(function (file) {
-	//		return file.match(/\.css$/);
-	//	});
-	//}
 };
