@@ -1,6 +1,6 @@
 {
   "name": "angular-browserfy-module",
-  "version": "0.0.3",
+  "version": "0.0.25",
   "homepage": "https://github.com/benmj/angular-browserify-lazy",
   "authors": [
     "Ben Jacobs <benmillerj@gmail.com>"

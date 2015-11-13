@@ -4,7 +4,7 @@ module.exports = {
     // additional tasks can operate on them
     html: 'index.html',
     options: {
-        dest: '<%= dev_dir %>'
+        dest: '<%= environment_folder %>'
         //flow: {
         //    html: {
         //        steps: {

@@ -2,6 +2,8 @@ module.exports = function (grunt) {
 	'use strict';
 
 	var pkg = grunt.file.readJSON('package.json');
+  var environment = grunt.option('env') || 'dev';
+
 	// Load grunt tasks automatically
 	require('load-grunt-config')(grunt, {
 		'jit-grunt': {
@@ -10,7 +12,10 @@ module.exports = function (grunt) {
 		},
 		data: require('./build.config.js')
 	});
+
+
 	grunt.config.set('pkg', pkg);
+  grunt.config.set('environment_folder', environment === 'dev' ? 'development' : 'production');
 
 	// Time how long tasks take. Can help when optimizing build times
 	require('time-grunt')(grunt);
@@ -33,7 +38,7 @@ module.exports = function (grunt) {
 	// Local Development task
 	grunt.registerTask('watch', [
 		//'bump', // Update version. Define cases
-		'jshint:all',
+		//'jshint:all',
 		'clean:dev',
 
 		// check js
@@ -46,9 +51,10 @@ module.exports = function (grunt) {
 		// vendors
 
 		'copy:vendors',
+    'copy:index',
     'copy:fonts',
-		'concat:vendors',
-		'index',
+
+    'concat:vendors',
 
 		//'uncss', //Pending test
 		// PROD version
@@ -69,7 +75,7 @@ module.exports = function (grunt) {
 		'clean:prod',
 
 		// check js
-		'jsbeautifier',
+		//'jsbeautifier',
 		'html2js',
 		'copy:build',
 		'browserify:prod',
@@ -81,9 +87,11 @@ module.exports = function (grunt) {
 
 		// vendors
 		'copy:vendors',
-		'concat:vendors',
+    'copy:index',
+    'copy:fonts',
 
-		'index',
+    'concat:vendors',
+
 		'uglify',
 		'useminPrepare',
 		'filerev',
@@ -107,27 +115,4 @@ module.exports = function (grunt) {
 	//		return file.match(/\.css$/);
 	//	});
 	//}
-
-	grunt.registerMultiTask('index', 'Process index.html template', function () {
-		//var dirRE = new RegExp('^(' + grunt.config('dev_dir') + '|' + grunt.config('compile_dir') + ')\/', 'g');
-		var dirRE = new RegExp('^(build)\/', 'g');
-		var jsFiles = filterForJS(this.filesSrc).map(function (file) {
-			return file.replace(dirRE, '');
-		});
-		//var cssFiles = filterForCSS(this.filesSrc).map(function(file) {
-		//  return file.replace(dirRE, '');
-		//});
-
-		grunt.file.copy('src/index.html', this.data.dir + '/index.html', {
-			process: function (contents) { // path
-				return grunt.template.process(contents, {
-					data: {
-						scripts: jsFiles,
-						//version: grunt.config('pkg.version')
-						//styles: cssFiles
-					}
-				});
-			}
-		});
-	});
 };

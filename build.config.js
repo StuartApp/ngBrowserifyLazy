@@ -8,7 +8,7 @@ module.exports = {
    * completely built.
    */
   meta: {
-    banner: 'Dimas López Zurita (aka. dimaslz) @ '
+    banner: 'Stuart'
   },
   dev_dir: 'development',
   prod_dir: 'production',
