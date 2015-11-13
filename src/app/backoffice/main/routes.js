@@ -25,5 +25,17 @@ module.exports = function($stateProvider, $urlRouterProvider, $futureStateProvid
     }
   });
 
+  $futureStateProvider.futureState({
+    type: 'ocLazyLoad',
+    urlPrefix: '/backoffice',
+    stateName: 'bck.godView',
+    bundle: {
+      name: 'godView',
+      reconfig: true,
+      files: [
+        'app/modules/backoffice/god-view.js'
+      ]
+    }
+  });
 
 };
